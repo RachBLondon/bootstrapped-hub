@@ -13,6 +13,7 @@ import AccountTransactions from '../components/accountTransactions';
 import Voting from '../components/voting';
 import SingleTransaction from '../components/singleTransaction';
 import HwWallet from '../components/hwWallet';
+import TestRoute from '../components/testRoute/testRoute';
 // import NotFound from '../components/notFound';
 import AccountVisualDemo from '../components/accountVisual/demo';
 import Receive from '../components/receive';
@@ -134,4 +135,9 @@ export default {
   explorer: {
     path: '/explorer',
   },
+  testRoute : {
+    path : '/test-route',
+    component : TestRoute,
+    isPrivate : false
+  }
 };
